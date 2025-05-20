@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Billing - Vital Edge</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Vital Edge</h1>
+        <nav>
+            <a href="index.html">Main</a>
+            <a href="home.html">Home</a>
+            <a href="login.html">Login</a>
+            <a href="book-appointment.html">Book Appointment</a>
+            <a href="contact-us.html">Contact Us</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Billing Details</h2>
+        <p>Enter your details to view or generate your bill:</p>
+        <form>
+            <label for="appointment-id">Appointment ID:</label>
+            <input type="text" id="appointment-id" required>
+            <button type="button" onclick="viewBillingDetails()">View Bill</button>
+        </form>
+        <div id="billing-details"></div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Vital Edge. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Appointment - Vital Edge</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Vital Edge</h1>
+        <nav>
+            <a href="index.html">Main</a>
+            <a href="home.html">Home</a>
+            <a href="login.html">Login</a>
+            <a href="billing.html">Billing</a>
+            <a href="contact-us.html">Contact Us</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Book an Appointment</h2>
+        <p>Select a specialty and choose from the available doctors to book an appointment.</p>
+        <form onsubmit="confirmAppointment(event)">
+            <label for="speciality">Specialty:</label>
+            <select id="speciality" onchange="showDoctors()" required>
+                <option value="" disabled selected>Select a specialty</option>
+                <option value="cardiology">Cardiology</option>
+                <option value="neurology">Neurology</option>
+                <option value="orthopedics">Orthopedics</option>
+            </select>
+            <div id="doctors-list"></div>
+            <button type="submit">Confirm Appointment</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Vital Edge. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
