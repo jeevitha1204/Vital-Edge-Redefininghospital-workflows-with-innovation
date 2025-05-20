@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Logo styling */
+.logo {
+    width: 120px;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+
+/* Header styling */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navigation styling */
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    background-color: #45a049;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+nav a:hover {
+    background-color: white;
+    color: #4CAF50;
+}
+
+/* Main content */
+main {
+    padding: 20px;
+    text-align: center; /* Center content inside main */
+}
+
+/* Hospital image styling */
+.hospital-image {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    margin: 20px auto;
+    display: block;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+/* Form styling */
+form {
+    margin-top: 20px;
+}
+
+input, select, button {
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    max-width: 300px;
+    display: block;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Utility classes */
+.hidden {
+    display: none;
+}
